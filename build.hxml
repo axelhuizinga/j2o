@@ -1,0 +1,11 @@
+-lib json2object
+
+-cp /opt/src/lib
+-cp ../lib
+-cp lib
+-cp src
+
+-js /home/axel/www/html/devel/haxe/js/app.js
+-dce std
+--debug
+-main App
